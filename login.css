@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://fleck.co.in/cdn/shop/products/IMG_0487.jpg?v=1663864780'); /* Replace 'background.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+}
+
+.login {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.7); /* Transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+
+.login h1, .login h4 {
+    text-align: center;
+}
+
+.login label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login input[type="gmail"],
+.login input[type="password"],
+.login input[type="submit"] {
+    width: 100%;
+    padding: 5px; /* Decreased padding */
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent background for input */
+}
+
+.login input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+    background-color: #0056b3;
+}

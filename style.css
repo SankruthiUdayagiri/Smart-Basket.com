@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+
+}
+
+.f-nav {
+    background-color: #87dc25; 
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    box-shadow: 0 .1rem 1rem rgb(54,52,52);
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+   
+}
+
+.nav-logo img {
+    width: 150px; 
+}
+
+.nav-search {
+    flex: 1; 
+    display: flex;
+    align-items: center;
+   
+}
+
+.search-input {
+    padding: 8px; 
+    border-radius: 5px;
+    border: none;
+    width: 100%; 
+}
+
+.search-icon {
+    background-color: #ddd; 
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 5px; 
+}
+
+.nav-address {
+    display: flex;
+    align-items: center;
+   
+}
+
+.add-icon {
+    background-color: #ddd; 
+    padding: 8px;
+    border-radius: 1100%;
+    cursor: pointer;
+    margin-right: 0 5px; 
+}
+
+.add-first, .add-sec {
+    margin: 0; 
+}
+
+.nav-app, .help {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: green;
+}
+
+/* Second navigation styles */
+.sec-nav {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.sec-nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec-nav a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+    padding: 10px;
+}
+
+.sec-nav a:hover {
+    color: #555;
+}
+
+
+.option {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.option ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.option a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+    padding: 10px;
+}
+
+.option a:hover {
+    color: #555;
+}
+
+
+.main-page {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.brands {
+    background-color: #fff; 
+    padding: 20px;
+    text-align: center;
+}
+
+.staples-container {
+    display: flex;
+    flex-wrap: nowrap; /* Ensures items stay in a single row */
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    max-width: 100%; /* Set maximum width */
+
+}
+.staple-item {
+    flex: 0 0 auto; 
+    margin-right: 0%; 
+}
+.staple-item:last-child {
+    margin-right: 0; /* Remove margin from last item */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    height: 50;
+    width:50;
+}
+
+.card {
+    background-color: #f9f9f9; 
+    padding: 20px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 50%; 
+    height: auto;
+    border-radius: 5px;
+}
+
+input[type='button'] {
+    padding: 10px 20px;
+    background-color: #009688; 
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+input[type='button']:hover {
+    background-color: #00796b; 
+}
+
+.product-image {
+    width: 200px; 
+    height: 200px; 
+}
+.add {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: #fff;
+    text-decoration: none; /* Remove underline from the link */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add:hover {
+    background-color: #005a4f;
+}
+
+.add-button {
+    background-color: red;
+    color: rgb(57, 55, 55);
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button, input[type='button'] {
+    padding: 12px 24px; /* Increase padding for buttons */
+}
+
+button:hover, input[type='button']:hover 
+{
+    background-color: #00796b;
+    transform: scale(1.05);
+}
+.offers-btn {
+    animation: pulse 2s infinite, colorChange 5s infinite; 
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1); 
+    }
+    50% {
+      transform: scale(1.1); 
+    }
+    100% {
+      transform: scale(1); 
+    }
+  }
+  
+  
+  @keyframes colorChange {
+    0% {
+      color:white; 
+    }
+    50% {
+      color: #0cbea9; 
+    }
+    100% {
+      color: #da0a34dd; 
+    }
+  }
+
+  footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}

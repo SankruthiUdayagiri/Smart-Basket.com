@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('fruit basket.jpg'); /* Replace 'fruit basket.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay; /* Blend the background image with the background color */
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+}
+
+.signup {
+    max-width: 400px; /* Increased the width */
+    width: 80%; /* Adjusted width as a percentage of the viewport */
+    background: rgba(255, 255, 255, 0.6); /* Increased transparency */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 100px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.signup h2 {
+    text-align: center;
+    color: #333;
+}
+
+.signup form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup label {
+    margin-top: 10px;
+    color: #333;
+}
+
+.signup input[type="text"],
+.signup input[type="tel"],
+.signup input[type="email"],
+.signup input[type="password"] {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup input[type="submit"] {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.signup p {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.signup a {
+    color: #1e5620;
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}

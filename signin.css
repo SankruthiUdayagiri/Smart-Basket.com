@@ -1,0 +1,65 @@
+/* Styles for Login Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://i.pinimg.com/564x/b6/d3/ed/b6d3ed14e86fa601c03ec89e054d8811.jpg');
+    background-size: cover; 
+            background-position: center; 
+
+}
+
+.login-container {
+    text-align: center;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+}
+
+.login-container h2 {
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group button {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px; /* Rounded corners */
+    border: none; /* Remove border */
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    background-color: #f2f2f2; /* Light gray background */
+    margin-bottom: 10px;
+}
+
+.form-group button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .login-container {
+        padding: 20px;
+    }
+}

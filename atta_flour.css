@@ -1,0 +1,73 @@
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    font-size: 32px; /* Adjust the size as per your preference */
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif; /* Example of elegant font */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Star ratings */
+.rating {
+    display: flex;
+    align-items: center;
+    color: #ffa500; /* Amber color */
+    font-size: 18px;
+    margin-top: 5px;
+}
+.rating .star {
+    color: #ffd700; /* Gold color */
+    margin-right: 5px;
+}
+
+
+.container {
+    width: 80%; /* Adjust width as needed */
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    flex: 0 0 25%;
+    background-color: #f9f9f9; 
+    padding: 20px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 90%; 
+    height: auto;
+    border-radius: 5px;
+}
+
+.add {
+    display: inline-block;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px; /* Optional: Adjust space between image and button */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
